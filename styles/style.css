@@ -1,0 +1,16 @@
+@import url("./font.css");
+@import url("reset.css");
+@import url("header.css");
+@import url("OurStory.css");
+@import url("OurCapabilities.css");
+@import url("WantTo.css");
+@import url("NewsLetter.css");
+@import url("footer.css");
+
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
