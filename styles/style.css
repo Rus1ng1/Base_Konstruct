@@ -6,11 +6,22 @@
 @import url("WantTo.css");
 @import url("NewsLetter.css");
 @import url("footer.css");
+@import url("intro.css");
 
 body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
-html {
-  scroll-behavior: smooth;
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  box-sizing: content-box;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
 }

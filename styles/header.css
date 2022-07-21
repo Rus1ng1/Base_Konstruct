@@ -1,0 +1,75 @@
+header {
+  padding: 42px 0 71px;
+  background-image: url("../img/Header/bg.jpg");
+  /* background-position: center; */
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #3a4f63;
+}
+
+.img_logo {
+  margin: 0 auto 306px;
+}
+
+.title {
+  font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: 5.7px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.description {
+  margin-bottom: 221px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #fff;
+}
+
+.link {
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 3.7px;
+  text-align: center;
+  color: #fff;
+}
+
+nav {
+  padding: 25px 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 451px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 38px;
+}
+
+.list__links {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 1.09px;
+  text-align: left;
+  color: #48555b;
+}
+
+.list__links:hover {
+  transition: 0.3s;
+  color: #00a4e5;
+}
