@@ -1,0 +1,39 @@
+#newsletter {
+  padding: 30px 0;
+  background: #171819;
+}
+
+.mail__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.news__text {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.84px;
+  text-align: center;
+  color: #fff;
+  margin-right: 70px;
+}
+
+input[type="email"] {
+  padding: 11px 98px 10px 16px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.07px;
+  text-align: left;
+  color: #48555b;
+  border: 0;
+  border-radius: 0;
+}
+input[type="email"]:focus {
+  outline: 0;
+}
+
+.btn__3 {
+  padding: 11px 49px;
+}

@@ -1,0 +1,45 @@
+#wantto {
+  /* background-image: url("../img/Main/WantTo/bg.jpg"); */
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+   */
+
+  background: url("../img/Main/WantTo/bg.jpg") no-repeat center/102%;
+  padding: 120px 0 231px;
+}
+
+.down__text {
+  text-align: center;
+}
+
+.text__want {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  text-align: center;
+  color: #48555b;
+}
+
+.btn__2 {
+  margin: 35px auto;
+  padding: 11px 26px;
+  text-align: center;
+  background-color: #00a4e5;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn__2:hover {
+  color: white;
+  background-color: #48555b;
+  opacity: 0.4;
+}

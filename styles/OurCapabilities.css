@@ -74,7 +74,9 @@
 }
 
 .btn:hover {
-  color: black;
+  color: white;
+  background-color: #48555b;
+  opacity: 0.4;
 }
 
 .cards {
@@ -82,12 +84,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  column-gap: 28px;
 }
 
 h3 {
   margin: 25px 0 13px;
-  font-size: 16px;
+  font-size: 15.5px;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.42px;
@@ -96,9 +97,10 @@ h3 {
 }
 
 .capabilities_card {
+  width: 295px;
+  height: 330px;
   border: 1px solid #e6e6e6;
-
-  padding: 38px 23px;
+  padding: 38px 22px 39px 23px;
   box-sizing: border-box;
 }
 
